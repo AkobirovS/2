@@ -7,9 +7,9 @@ For more information on this file, see
 https://docs.djangoproject.com/en/5.2/howto/deployment/wsgi/
 """
 
-import os
 
 from django.core.wsgi import get_wsgi_application
 
-# звлаыпдрыфвалпо жрфждвалпрфываопфрыжалрфпжыв
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'school_project_2.settings')
+
 application = get_wsgi_application()
